@@ -1,0 +1,91 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "refinedstorage",
+      "path": "quartz_enriched_iron"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 8,
+      "oreName": "refinedstorage:controller"
+    },
+    {
+      "weight": 8,
+      "oreName": "refinedstorage:grid:1"
+    },
+    {
+      "weight": 8,
+      "oreName": "refinedstorage:grid:2"
+    },
+    {
+      "weight": 5,
+      "oreName": "refinedstorage:grid:3"
+    },
+    {
+      "weight": 40,
+      "oreName": "refinedstorage:disk_drive"
+    },
+    {
+      "weight": 8,
+      "oreName": "refinedstorage:crafting_monitor"
+    },
+           {
+      "weight": 5,
+      "oreName": "refinedstorage:processing_pattern_encoder"
+    },
+    {
+      "weight": 15,
+      "oreName": "refinedstorage:solderer"
+    },
+    {
+      "weight": 30,
+      "oreName": "refinedstorage:interface"
+    },
+    {
+      "weight": 80,
+      "oreName": "bloodmagic:BlockDemonExtra"
+    },
+    {
+      "weight": 100,
+      "oreName": "bloodmagic:BlockDemonExtra:1"
+    },
+    {
+      "weight": 169,
+      "oreName": "bloodmagic:BlockDemonExtra:2"
+    },
+      {
+      "weight": 50,
+      "oreName": "bloodmagic:BlockDemonExtra:3"
+    },
+    {
+      "weight": 50,
+      "oreName": "bloodmagic:BlockDemonExtra:4"
+    },
+    {
+      "weight": 101,
+      "oreName": "bloodmagic:BlockDemonBricks2"
+     },
+      {
+      "weight": 50,
+      "oreName": "rebornstorage:multicrafter:2"
+    },
+    {
+      "weight": 80,
+      "oreName": "rebornstorage:multicrafter:3"
+    },
+    {
+      "weight": 70,
+      "oreName": "rebornstorage:multicrafter"
+    },
+     {
+      "weight": 130,
+      "oreName": "rebornstorage:multicrafter:1"
+    }
+  ],
+  "explosionStrength": 1.0,
+  "radius": 5,
+  "maxWeight": 1000,
+  "version": 0
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+</enderio:recipes>
+
+
+</recipe>
+
+
+-<recipe name="Ender Resonator" energyCost="20000">
+
+
+-<input>
+
+<itemStack slot="0" itemMeta="0" itemName="draconic_core" modID="draconicevolution"/>
+
+<itemStack slot="1" itemMeta="5" itemName="item:Skull" modID="Minecraft"/>
+
+<itemStack slot="2" itemMeta="0" itemName="draconic_core" modID="draconicevolution"/>
+
+<itemStack slot="3" oreDictionary="netherSTar"/>
+
+<itemStack slot="4" itemMeta="0" itemName="blockGold" modID="Minecraft"/>
+
+<itemStack slot="5" oreDictionary="netherStar"/>
+
+</input>
+
+
+-<output>
+
+<itemStack itemMeta="0" itemName="extrautils2:AngelRing" modID="ExtraUtils2"/>
+
+</output>

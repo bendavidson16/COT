@@ -1,0 +1,27 @@
+{
+  "_name": "thermalfoundation.blizz",
+  "drops": [
+    {
+      "function": "all",
+      "_comment": "this count effectively means only perform the function 5% of the time",
+      "count": 0.50,
+      "functions": [
+        {
+          "function": "spawn",
+          "id": "aether_legacy.zephyr",
+          "count": "2~3",
+          "stats": [
+            {
+              "_comment": "halve the blaze's max health",
+              "function": "modifier",
+              "attribute": "generic.maxHealth",
+              "value": -0.5,
+              "operator": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": []
+}

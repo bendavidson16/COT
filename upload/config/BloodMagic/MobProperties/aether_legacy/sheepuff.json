@@ -1,0 +1,12 @@
+{
+  "_name": "aether_legacy.sheepuff",
+	"drops":[
+		{"function":"add",
+		"id":"arsmagica2:item_ore",
+	"damage":"8",
+"count":"0.5"
+}
+],
+"pre_stats":[],
+"stats":[]
+}

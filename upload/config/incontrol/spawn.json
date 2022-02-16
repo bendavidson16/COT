@@ -1,0 +1,7 @@
+[
+	{
+    "dimension": 0,
+    "mob": ["abyssalcraft.abyssalzombie", "dmonsters.woman"],
+    "result": "deny"
+  }
+]

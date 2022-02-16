@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<ConfigHelp>
+		<ConfigHelp Name="Documentation">
+			<DocumentationLink DataType="@S" Default="">LINK TO GITHUB GOES HERE</DocumentationLink>
+		</ConfigHelp>
+		<ConfigHelp Name="Data Types">
+			<ABOUT DataType="@S" Default="">It is important that the correct data types are used. They are designated by the @ symbol.</ABOUT>
+			<Boolean DataType="@B" Default="">Accepts: true, false.</Boolean>
+			<Integer DataType="@I" Default="">Accepts: Whole numbers only, such as 2 or 4096.</Integer>
+			<Float DataType="@F" Default="">Accepts: Decimal numbers, such as 1.5 or 98.9.</Float>
+			<Double DataType="@D" Default="">Accepts: Decimal numbers, such as 1.5 or 98.9.</Double>
+			<String DataType="@S" Default="">Accepts: Any number or character, such as abcdefg or 9dsa29213mn#.</String>
+		</ConfigHelp>
+	</ConfigHelp>
+	<Toggles>
+		<Toggle Name="Simple Tcon Toggles">
+			<enableBrass DataType="@B" Default="true">true</enableBrass>
+			<thyriumSmelteryRecipe DataType="@B" Default="false">false</thyriumSmelteryRecipe>
+			<cinderstoneSmelteryRecipe DataType="@B" Default="false">false</cinderstoneSmelteryRecipe>
+			<dragonbezoarSmelteryRecipe DataType="@B" Default="false">false</dragonbezoarSmelteryRecipe>
+		</Toggle>
+	</Toggles>
+	<MoreToggles>
+		<MoreToggle Name="Melting Onyx doesnt look quite right">
+			<enableOnyxMelting DataType="@B" Default="true">true</enableOnyxMelting>
+			<onyxCasting DataType="@B" Default="true">true</onyxCasting>
+			<sinisiteSmelteryRecipe DataType="@B" Default="false">false</sinisiteSmelteryRecipe>
+			<thrakaSmelteryRecipe DataType="@B" Default="false">false</thrakaSmelteryRecipe>
+			<pyralisSmelteryRecipe DataType="@B" Default="false">false</pyralisSmelteryRecipe>
+		</MoreToggle>
+	</MoreToggles>
+	<ExtraFuel>
+		<ExtraFuel Name="Extra fuels from other mods (some just for fun)">
+			<enableSteamAsFule DataType="@B" Default="true">true</enableSteamAsFule>
+			<steamUse DataType="@I" Default="250">250</steamUse>
+			<steamTime DataType="@I" Default="50">50</steamTime>
+			<enableSuperLavaFule DataType="@B" Default="true">true</enableSuperLavaFule>
+			<superLavaUse DataType="@I" Default="5">5</superLavaUse>
+			<superLavaTime DataType="@I" Default="600">600</superLavaTime>
+		</ExtraFuel>
+	</ExtraFuel>
+	<Ores>
+		<Ore Name="Zinc Ore">
+			<Hardness DataType="@F" Default="1.7">1.7</Hardness>
+			<Resistance DataType="@F" Default="5.0">5.0</Resistance>
+			<LightValue DataType="@F" Default="0.0">0.0</LightValue>
+			<HarvestLevel DataType="@I" Default="1">1</HarvestLevel>
+			<HarvestTool DataType="@S" Default="pickaxe">pickaxe</HarvestTool>
+			<CreativeTab DataType="@S" Default="SimpleBlocks">SimpleBlocks</CreativeTab>
+			<SpawnRate DataType="@I" Default="20">20</SpawnRate>
+			<VeinSize DataType="@I" Default="4">0</VeinSize>
+			<MinHeight DataType="@I" Default="30">30</MinHeight>
+			<MaxHeight DataType="@I" Default="80">80</MaxHeight>
+		</Ore>
+	</Ores>
+	<Blocks>
+		<Block Name="Block of Zinc">
+			<Hardness DataType="@F" Default="7.0">7.0</Hardness>
+			<Resistance DataType="@F" Default="12.0">12.0</Resistance>
+			<LightValue DataType="@F" Default="0.0">0.0</LightValue>
+			<HarvestLevel DataType="@I" Default="0">0</HarvestLevel>
+			<HarvestTool DataType="@S" Default="pickaxe">pickaxe</HarvestTool>
+			<CreativeTab DataType="@S" Default="SimpleDecorations">SimpleDecorations</CreativeTab>
+			<BeaconBase DataType="@B" Default="true">true</BeaconBase>
+		</Block>
+		<Block Name="Block of Brass">
+			<Hardness DataType="@F" Default="7.0">7.0</Hardness>
+			<Resistance DataType="@F" Default="12.0">12.0</Resistance>
+			<LightValue DataType="@F" Default="0.0">0.0</LightValue>
+			<HarvestLevel DataType="@I" Default="0">0</HarvestLevel>
+			<HarvestTool DataType="@S" Default="pickaxe">pickaxe</HarvestTool>
+			<CreativeTab DataType="@S" Default="SimpleDecorations">SimpleDecorations</CreativeTab>
+			<BeaconBase DataType="@B" Default="true">true</BeaconBase>
+		</Block>
+	</Blocks>
+	<Items>
+		<Item Name="Zinc Ingot">
+			<StackSize DataType="@I" Default="64">64</StackSize>
+			<CreativeTab DataType="@S" Default="SimpleMaterials">SimpleMaterials</CreativeTab>
+			<SmeltingXP DataType="@F" Default="0.4">0.4</SmeltingXP>
+		</Item>
+		<Item Name="Brass Ingot">
+			<StackSize DataType="@I" Default="64">64</StackSize>
+			<CreativeTab DataType="@S" Default="SimpleMaterials">SimpleMaterials</CreativeTab>
+			<SmeltingXP DataType="@F" Default="0.4">0.4</SmeltingXP>
+		</Item>
+	</Items>
+	<TinkersMaterial>
+		<TinkersMaterial Name="Mythril Tinker Tools">
+			<HeadDurability DataType="@I" Default="650">650</HeadDurability>
+			<HarvestLevel DataType="@I" Default="2">2</HarvestLevel>
+			<HarvestSpeed DataType="@F" Default="7.90">7.90</HarvestSpeed>
+			<DamageVsEntity DataType="@F" Default="3.0">13.0</DamageVsEntity>
+			<HandleModifer DataType="@F" Default="1.15">1.15</HandleModifer>
+			<HandleDurability DataType="@I" Default="65">65</HandleDurability>
+			<ExtraDurability DataType="@I" Default="60">60</ExtraDurability>
+			<BowDrawSpeed DataType="@F" Default="0.9">0.9</BowDrawSpeed>
+			<BowRangeMod DataType="@F" Default="1.2">1.2</BowRangeMod>
+			<BowDamageBonus DataType="@F" Default="2.0">16.0</BowDamageBonus>
+		</TinkersMaterial>
+		<TinkersMaterial Name="Adamantium Tinker Tools">
+			<HeadDurability DataType="@I" Default="1000">1000</HeadDurability>
+			<HarvestLevel DataType="@I" Default="2">3</HarvestLevel>
+			<HarvestSpeed DataType="@F" Default="13.80">13.80</HarvestSpeed>
+			<DamageVsEntity DataType="@F" Default="3.50">3.50</DamageVsEntity>
+			<HandleModifer DataType="@F" Default="1.20">1.20</HandleModifer>
+			<HandleDurability DataType="@I" Default="75">75</HandleDurability>
+			<ExtraDurability DataType="@I" Default="80">80</ExtraDurability>
+			<BowDrawSpeed DataType="@F" Default="0.5">0.5</BowDrawSpeed>
+			<BowRangeMod DataType="@F" Default="1.3">1.3</BowRangeMod>
+			<BowDamageBonus DataType="@F" Default="2.5">2.5</BowDamageBonus>
+		</TinkersMaterial>
+		<TinkersMaterial Name="Onyx Tinker Tools">
+			<HeadDurability DataType="@I" Default="3000">3000</HeadDurability>
+			<HarvestLevel DataType="@I" Default="4">4</HarvestLevel>
+			<HarvestSpeed DataType="@F" Default="9.90">9.90</HarvestSpeed>
+			<DamageVsEntity DataType="@F" Default="4.0">30.0</DamageVsEntity>
+			<HandleModifer DataType="@F" Default="0.95">0.95</HandleModifer>
+			<HandleDurability DataType="@I" Default="275">275</HandleDurability>
+			<ExtraDurability DataType="@I" Default="110">110</ExtraDurability>
+			<BowDrawSpeed DataType="@F" Default="0.7">0.3</BowDrawSpeed>
+			<BowRangeMod DataType="@F" Default="1.3">1.3</BowRangeMod>
+			<BowDamageBonus DataType="@F" Default="4.0">20.0</BowDamageBonus>
+		</TinkersMaterial>
+		<TinkersMaterial Name="Thyrium Tinker Tools">
+			<HeadDurability DataType="@I" Default="1800">1800</HeadDurability>
+			<HarvestLevel DataType="@I" Default="3">3</HarvestLevel>
+			<HarvestSpeed DataType="@F" Default="21.25">21.25</HarvestSpeed>
+			<DamageVsEntity DataType="@F" Default="6.0">6.0</DamageVsEntity>
+			<HandleModifer DataType="@F" Default="1.50">1.50</HandleModifer>
+			<HandleDurability DataType="@I" Default="85">85</HandleDurability>
+			<ExtraDurability DataType="@I" Default="120">120</ExtraDurability>
+			<BowDrawSpeed DataType="@F" Default="0.95">0.95</BowDrawSpeed>
+			<BowRangeMod DataType="@F" Default="1.6">1.6</BowRangeMod>
+			<BowDamageBonus DataType="@F" Default="4.0">4.0</BowDamageBonus>
+		</TinkersMaterial>
+		<TinkersMaterial Name="Sinisite Tinker Tools">
+			<HeadDurability DataType="@I" Default="3600">3600</HeadDurability>
+			<HarvestLevel DataType="@I" Default="5">5</HarvestLevel>
+			<HarvestSpeed DataType="@F" Default="17.00">17.00</HarvestSpeed>
+			<DamageVsEntity DataType="@F" Default="7.9">7.9</DamageVsEntity>
+			<HandleModifer DataType="@F" Default="1.65">1.65</HandleModifer>
+			<HandleDurability DataType="@I" Default="95">95</HandleDurability>
+			<ExtraDurability DataType="@I" Default="150">150</ExtraDurability>
+			<BowDrawSpeed DataType="@F" Default="0.7">0.7</BowDrawSpeed>
+			<BowRangeMod DataType="@F" Default="1.4">1.4</BowRangeMod>
+			<BowDamageBonus DataType="@F" Default="7.0">7.0</BowDamageBonus>
+		</TinkersMaterial>
+		<TinkersMaterial Name="Fyrite Tinker Tools">
+			<HeadDurability DataType="@I" Default="150">150</HeadDurability>
+			<HarvestLevel DataType="@I" Default="3">3</HarvestLevel>
+			<HarvestSpeed DataType="@F" Default="8.00">8.00</HarvestSpeed>
+			<DamageVsEntity DataType="@F" Default="7.0">7.0</DamageVsEntity>
+			<HandleModifer DataType="@F" Default="0.65">0.65</HandleModifer>
+			<HandleDurability DataType="@I" Default="35">35</HandleDurability>
+			<ExtraDurability DataType="@I" Default="30">30</ExtraDurability>
+			<BowDrawSpeed DataType="@F" Default="0.2">0.2</BowDrawSpeed>
+			<BowRangeMod DataType="@F" Default="0.4">0.4</BowRangeMod>
+			<BowDamageBonus DataType="@F" Default="-1.0">-1.0</BowDamageBonus>
+		</TinkersMaterial>
+		<TinkersMaterial Name="Malachite Tinker Tools">
+			<HeadDurability DataType="@I" Default="700">700</HeadDurability>
+			<HarvestLevel DataType="@I" Default="3">3</HarvestLevel>
+			<HarvestSpeed DataType="@F" Default="9.00">9.00</HarvestSpeed>
+			<DamageVsEntity DataType="@F" Default="3.0">3.0</DamageVsEntity>
+			<HandleModifer DataType="@F" Default="1.2">1.2</HandleModifer>
+			<HandleDurability DataType="@I" Default="55">55</HandleDurability>
+			<ExtraDurability DataType="@I" Default="75">75</ExtraDurability>
+			<BowDrawSpeed DataType="@F" Default="0.2">0.2</BowDrawSpeed>
+			<BowRangeMod DataType="@F" Default="0.4">0.4</BowRangeMod>
+			<BowDamageBonus DataType="@F" Default="-1.0">-1.0</BowDamageBonus>
+		</TinkersMaterial>
+		<TinkersMaterial Name="Ashstone Tinker Tools">
+			<HeadDurability DataType="@I" Default="900">900</HeadDurability>
+			<HarvestLevel DataType="@I" Default="3">3</HarvestLevel>
+			<HarvestSpeed DataType="@F" Default="16.00">16.00</HarvestSpeed>
+			<DamageVsEntity DataType="@F" Default="1.9">1.9</DamageVsEntity>
+			<HandleModifer DataType="@F" Default="1.4">1.4</HandleModifer>
+			<HandleDurability DataType="@I" Default="35">35</HandleDurability>
+			<ExtraDurability DataType="@I" Default="66">66</ExtraDurability>
+			<BowDrawSpeed DataType="@F" Default="0.2">0.2</BowDrawSpeed>
+			<BowRangeMod DataType="@F" Default="0.4">0.4</BowRangeMod>
+			<BowDamageBonus DataType="@F" Default="-1.0">-1.0</BowDamageBonus>
+		</TinkersMaterial>
+		<TinkersMaterial Name="Illumenite Tinker Tools">
+			<HeadDurability DataType="@I" Default="700">700</HeadDurability>
+			<HarvestLevel DataType="@I" Default="3">3</HarvestLevel>
+			<HarvestSpeed DataType="@F" Default="8.00">8.00</HarvestSpeed>
+			<DamageVsEntity DataType="@F" Default="3.9">3.9</DamageVsEntity>
+			<HandleModifer DataType="@F" Default="1.05">1.05</HandleModifer>
+			<HandleDurability DataType="@I" Default="15">15</HandleDurability>
+			<ExtraDurability DataType="@I" Default="40">40</ExtraDurability>
+			<BowDrawSpeed DataType="@F" Default="0.2">0.2</BowDrawSpeed>
+			<BowRangeMod DataType="@F" Default="0.4">0.4</BowRangeMod>
+			<BowDamageBonus DataType="@F" Default="-1.0">-1.0</BowDamageBonus>
+		</TinkersMaterial>
+		<TinkersMaterial Name="Dragonstone Tinker Tools">
+			<HeadDurability DataType="@I" Default="4000">4000</HeadDurability>
+			<HarvestLevel DataType="@I" Default="4">4</HarvestLevel>
+			<HarvestSpeed DataType="@F" Default="10.00">10.00</HarvestSpeed>
+			<DamageVsEntity DataType="@F" Default="7.9">7.9</DamageVsEntity>
+			<HandleModifer DataType="@F" Default="1.65">1.65</HandleModifer>
+			<HandleDurability DataType="@I" Default="95">95</HandleDurability>
+			<ExtraDurability DataType="@I" Default="150">150</ExtraDurability>
+			<BowDrawSpeed DataType="@F" Default="0.2">0.2</BowDrawSpeed>
+			<BowRangeMod DataType="@F" Default="0.4">0.4</BowRangeMod>
+			<BowDamageBonus DataType="@F" Default="6.0">6.0</BowDamageBonus>
+		</TinkersMaterial>
+		<TinkersMaterial Name="Argonite Tinker Tools">
+			<HeadDurability DataType="@I" Default="1300">1300</HeadDurability>
+			<HarvestLevel DataType="@I" Default="3">3</HarvestLevel>
+			<HarvestSpeed DataType="@F" Default="8.00">8.00</HarvestSpeed>
+			<DamageVsEntity DataType="@F" Default="2.9">2.9</DamageVsEntity>
+			<HandleModifer DataType="@F" Default="1.15">1.15</HandleModifer>
+			<HandleDurability DataType="@I" Default="55">55</HandleDurability>
+			<ExtraDurability DataType="@I" Default="120">120</ExtraDurability>
+			<BowDrawSpeed DataType="@F" Default="0.2">0.2</BowDrawSpeed>
+			<BowRangeMod DataType="@F" Default="0.4">0.4</BowRangeMod>
+			<BowDamageBonus DataType="@F" Default="-1.0">-1.0</BowDamageBonus>
+		</TinkersMaterial>
+		<TinkersMaterial Name="Cinderstone Tinker Tools">
+			<HeadDurability DataType="@I" Default="35">35</HeadDurability>
+			<HarvestLevel DataType="@I" Default="0">0</HarvestLevel>
+			<HarvestSpeed DataType="@F" Default="10.00">10.00</HarvestSpeed>
+			<DamageVsEntity DataType="@F" Default="7.0">7.0</DamageVsEntity>
+			<HandleModifer DataType="@F" Default="0.75">0.75</HandleModifer>
+			<HandleDurability DataType="@I" Default="-5">-5</HandleDurability>
+			<ExtraDurability DataType="@I" Default="-8">-8</ExtraDurability>
+			<BowDrawSpeed DataType="@F" Default="0.2">0.2</BowDrawSpeed>
+			<BowRangeMod DataType="@F" Default="0.4">0.4</BowRangeMod>
+			<BowDamageBonus DataType="@F" Default="-1.0">-1.0</BowDamageBonus>
+		</TinkersMaterial>
+		<TinkersMaterial Name="Thraka Tinker Tools">
+			<HeadDurability DataType="@I" Default="825">825</HeadDurability>
+			<HarvestLevel DataType="@I" Default="3">3</HarvestLevel>
+			<HarvestSpeed DataType="@F" Default="14.00">14.00</HarvestSpeed>
+			<DamageVsEntity DataType="@F" Default="2.9">2.9</DamageVsEntity>
+			<HandleModifer DataType="@F" Default="1.1">1.1</HandleModifer>
+			<HandleDurability DataType="@I" Default="25">25</HandleDurability>
+			<ExtraDurability DataType="@I" Default="35">35</ExtraDurability>
+			<BowDrawSpeed DataType="@F" Default="0.2">0.2</BowDrawSpeed>
+			<BowRangeMod DataType="@F" Default="0.4">0.4</BowRangeMod>
+			<BowDamageBonus DataType="@F" Default="-1.0">-1.0</BowDamageBonus>
+		</TinkersMaterial>
+		<TinkersMaterial Name="Pyralis Tinker Tools">
+			<HeadDurability DataType="@I" Default="3000">3000</HeadDurability>
+			<HarvestLevel DataType="@I" Default="4">4</HarvestLevel>
+			<HarvestSpeed DataType="@F" Default="12.00">12.00</HarvestSpeed>
+			<DamageVsEntity DataType="@F" Default="7.9">7.9</DamageVsEntity>
+			<HandleModifer DataType="@F" Default="1.15">1.15</HandleModifer>
+			<HandleDurability DataType="@I" Default="50">50</HandleDurability>
+			<ExtraDurability DataType="@I" Default="110">110</ExtraDurability>
+			<BowDrawSpeed DataType="@F" Default="0.2">0.2</BowDrawSpeed>
+			<BowRangeMod DataType="@F" Default="0.4">0.4</BowRangeMod>
+			<BowDamageBonus DataType="@F" Default="-1.0">-1.0</BowDamageBonus>
+		</TinkersMaterial>
+		<TinkersMaterial Name="Dragon Bezoar Tinker Tools">
+			<HeadDurability DataType="@I" Default="4100">4100</HeadDurability>
+			<HarvestLevel DataType="@I" Default="6">6</HarvestLevel>
+			<HarvestSpeed DataType="@F" Default="16.00">16.00</HarvestSpeed>
+			<DamageVsEntity DataType="@F" Default="8.8">8.8</DamageVsEntity>
+			<HandleModifer DataType="@F" Default="1.75">1.75</HandleModifer>
+			<HandleDurability DataType="@I" Default="98">98</HandleDurability>
+			<ExtraDurability DataType="@I" Default="165">165</ExtraDurability>
+			<BowDrawSpeed DataType="@F" Default="0.2">0.2</BowDrawSpeed>
+			<BowRangeMod DataType="@F" Default="1.6">1.6</BowRangeMod>
+			<BowDamageBonus DataType="@F" Default="7.5">7.5</BowDamageBonus>
+		</TinkersMaterial>
+	</TinkersMaterial>
+</Configuration>

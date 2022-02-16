@@ -1,0 +1,82 @@
+[
+  {
+    "ore": "bigreactors:brore",
+    "oremeta": 1,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 12,
+    "size": 10,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "nethermetals:nether_platinum_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 12,
+    "size": 3,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "minecraft:glowstone",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 30,
+    "size": 6,
+    "miny": 25,
+    "maxy": 80
+  },
+  {
+    "ore": "bigreactors:brore",
+    "oremeta": 2,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 12,
+    "size": 12,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "minecraft:gold_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 12,
+    "size": 8,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "nethermetals:nether_iridium_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 8,
+    "size": 8,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "thermalfoundation:ore",
+    "oremeta": 4,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 16,
+    "size": 8,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "bigreactors:brOre",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 18,
+    "size": 10,
+    "miny": 10,
+    "maxy": 246
+  }
+]

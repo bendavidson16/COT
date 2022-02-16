@@ -1,0 +1,26 @@
+{
+  "_name": "Skeleton",
+  "drops": [
+    {
+      "function": "all",
+      "_comment": "this count effectively means only perform the function 5% of the time",
+      "count": 0.05,
+      "functions": [
+        {
+          "function": "spawn",
+          "id": "grimoireofgaia.Vampire",
+          "stats": [
+            {
+              "_comment": "halve the blaze's max health",
+              "function": "modifier",
+              "attribute": "generic.maxHealth",
+              "value": 2,
+              "operator": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": []
+}

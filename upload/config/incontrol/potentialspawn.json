@@ -1,0 +1,13 @@
+[
+  {
+    "dimension": 0,
+        "mobs": [
+      {
+        "mob": "adinferos.BlackWidow",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  }
+]

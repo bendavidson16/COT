@@ -1,0 +1,105 @@
+<!--
+  Custom recipes that will not be over written by Ender IO are added here. Examples of recipes can be found in the
+  AlloySmelterRecipes_Core.xml and general format documentation in the SAGMillRecipes_Core/User.
+
+  As well as adding custom recipes to the operation of the Alloy Smelter, a vanilla furnace recipe can be controlled.
+  It can be disabled completely by simply adding this line:
+
+  <vanillaFurnaceRecipes enabled="false" />
+
+  It is also possible to selectively disable vanilla furnace recipes. The following example disables the smelting of iron
+  ingots, ender pearls, and any form of iron ore registered in the ore dictionary.
+
+  <vanillaFurnaceRecipes>
+
+	<exclude>
+      <itemStack modID="minecraft" itemName="iron_ingot" />
+      <itemStack modID="minecraft" itemName="ender_pearl" />
+      <itemStack oreDictionary="oreIron" />
+    </exclude>
+
+  </vanillaFurnaceRecipes>
+
+  Add this line to disable the creation of TE alloys using the Alloy Smelter.
+
+  <recipeGroup name="Thermal Expansion" enabled="false" />
+
+-->
+<AlloySmelterRecipes>
+
+  <recipeGroup name="EnderIO" enabled="true" >
+    <recipe name="Alloyed Graphite" energyCost="4000" >
+      <input>
+        <itemStack modID="bigreactors" itemName="ingotmetals" itemMeta="2" />
+        <itemStack modID="simpleores" itemName="adamantium_ingot" itemMeta="0" />
+      </input>
+      <output>
+        <itemStack modID="titantrinkets" itemName="RefinedGraphite" number="1"/>
+      </output>
+    </recipe>
+        <recipe name="Matrix Ingot" energyCost="4000" >
+      <input>
+        <itemStack modID="enderio" itemName="itemMaterial" itemMeta="13" />
+        <itemStack modID="titantrinkets" itemName="OpenEyeOfEnder" itemMeta="0" />
+        <itemStack modID="minecraft" itemName="nether_star" itemMeta="0" />
+      </input>
+      <output>
+        <itemStack modID="avaritia" itemName="matrix_ingot" number="3"/>
+      </output>
+    </recipe>
+    <recipe name="Eye of Ender" energyCost="4000" >
+      <input>
+        <itemStack modID="simpleores" itemName="adamantium_ingot" itemMeta="0" />
+        <itemStack modID="minecraft" itemName="ender_pearl" itemMeta="0" />
+        <itemStack modID="minecraft" itemName="blaze_rod" itemMeta="0" />
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="ender_eye" number="1"/>
+      </output>
+    </recipe>
+    <recipe name="Yellorite Ingot" energyCost="10000" >
+      <input>
+        <itemStack oreDictionary="crushedUranium" />
+      </input>
+      <output>
+        <itemStack modID="bigreactors" itemName="ingotmetals" itemMeta="0" exp="0.5" />
+      </output>
+    </recipe>
+     <recipe name="Ender Pearl" energyCost="80000" >
+      <input>
+        <itemStack modID="extrautils2" itemName="enderlilly" itemMeta="0" />
+        <itemStack modID="thermalfoundation" itemName="fertilizer" itemMeta="0" />
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="ender_pearl" number="4"/>
+      </output>
+    </recipe>
+            <recipe name="Ender Pearl1" energyCost="80000" >
+      <input>
+        <itemStack modID="extrautils2" itemName="enderlilly" itemMeta="0" />
+        <itemStack modID="thermalfoundation" itemName="fertilizer" itemMeta="1" />
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="ender_pearl" number="6"/>
+      </output>
+    </recipe>
+        <recipe name="Ender Pearl2" energyCost="80000" >
+      <input>
+        <itemStack modID="extrautils2" itemName="enderlilly" itemMeta="0" />
+        <itemStack modID="thermalfoundation" itemName="fertilizer" itemMeta="2" />
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="ender_pearl" number="8"/>
+      </output>
+    </recipe>   
+            <recipe name="Prosperity Shards" energyCost="80000" >
+      <input>
+        <itemStack oreDictionary="nuggetLead" number="2"/>
+        <itemStack oreDictionary="nuggetGold" />
+      </input>
+      <output>
+        <itemStack modID="mysticalagriculture" itemName="prosperity_shard" number="1"/>
+      </output>
+    </recipe>   
+   </recipeGroup> 
+</AlloySmelterRecipes>

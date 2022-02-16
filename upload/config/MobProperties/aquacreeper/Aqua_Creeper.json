@@ -1,0 +1,25 @@
+{
+  "_name": "aquacreeper.Aqua Creeper",
+  "drops": [
+    {
+      "_comment": "we don't want normal skulls to drop from wither skeletons",
+      "function": "all",
+      "functions": [
+        {
+          "_comment": "add egg drop",
+          "function": "add",
+          "id": "scalinghealth:CrystalShard",
+          "count": 0.05
+        },
+        {
+          "_comment": "add egg drop",
+          "function": "add",
+          "id": "tinker_io:SolidFuel",
+          "count": 0.2
+        }
+      ]
+    }
+  ],
+  "pre_stats": [],
+  "stats": []
+}

@@ -1,0 +1,27 @@
+{
+  "_name": "aether_legacy.valkyrie_queen",
+  "drops": [
+    {
+      "function": "all",
+      "_comment": "this count effectively means only perform the function 5% of the time",
+      "count": 0.95,
+      "functions": [
+        {
+          "function": "spawn",
+          "id": "Blaze",
+          "count": "3~5",
+          "stats": [
+            {
+              "_comment": "halve the blaze's max health",
+              "function": "modifier",
+              "attribute": "generic.maxHealth",
+              "value": -0.5,
+              "operator": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": []
+}

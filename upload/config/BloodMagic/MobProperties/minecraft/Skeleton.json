@@ -1,0 +1,10 @@
+{
+  "_name": "Skeleton",
+	"drops":[
+		{"function":"remove",
+		"id":"armorplus:wither_bone"
+}
+],
+"pre_stats":[],
+"stats":[]
+}

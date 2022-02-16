@@ -1,0 +1,43 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "openmodularturrets",
+      "path": "intermediate_tiered"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 150,
+      "oreName": "bloodmagic:BlockDemonBricks2:5"
+    },
+    {
+      "weight": 50,
+      "oreName": "bloodmagic:BlockDemonBricks2:1"
+    },
+    {
+      "weight": 50,
+      "oreName": "bloodmagic:BlockDemonBricks2:2"
+    },
+    {
+      "weight": 50,
+      "oreName": "bloodmagic:BlockDemonBricks2:3"
+    },
+        {
+      "weight": 200,
+      "oreName": "bloodmagic:BlockDemonBricks2:4"
+    },
+        {
+      "weight": 275,
+      "oreName": "bloodmagic:BlockDemonLight"
+    },
+    {
+      "weight": 275,
+      "oreName": "bloodmagic:BlockDemonLight:3"
+    }
+  ],
+  "explosionStrength": 1.0,
+  "radius": 3,
+  "maxWeight": 1000,
+  "version": 0
+}

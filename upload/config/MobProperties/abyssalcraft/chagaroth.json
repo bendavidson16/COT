@@ -1,0 +1,19 @@
+{
+  "_name": "abyssalcraft.chagaroth",
+  "drops": [
+    {
+      "_comment": "we don't want normal skulls to drop from wither skeletons",
+      "function": "all",
+      "functions": [
+        {
+          "_comment": "add egg drop",
+          "function": "add",
+          "id": "titantrinkets:AirshipKit1",
+          "count": 1.0
+        }
+      ]
+    }
+  ],
+  "pre_stats": [],
+  "stats": []
+}

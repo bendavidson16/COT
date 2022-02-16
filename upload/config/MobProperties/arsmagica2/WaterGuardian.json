@@ -1,0 +1,43 @@
+{
+  "_name": "arsmagica2.WaterGuardian",
+ "drops": [
+    {
+      "_comment": "we don't want normal skulls to drop from wither skeletons",
+      "function": "all",
+      "functions": [
+        {
+          "_comment": "add egg drop",
+          "function": "add",
+          "id": "thermalfoundation:coin",
+          "damage":"72",
+          "count": 1.0
+        },
+        {
+          "function": "spawn",
+          "id": "grimoireofgaia.mermaid",
+          "count": "4"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "function": "all",
+      "functions": [
+        {
+          "function": "modifier",
+          "attribute": "generic.maxHealth",
+          "value": 4,
+          "operator": 1
+        },
+                 {
+            "function": "modifier",
+            "attribute": "generic.attackDamage",
+            "value": 14,
+            "override": true
+            }
+          ]
+  
+    }
+  ]
+}

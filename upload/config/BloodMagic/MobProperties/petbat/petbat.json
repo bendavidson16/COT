@@ -1,0 +1,13 @@
+{
+ "_name": "witchery.vampire",
+  "drops": [],
+  "pre_stats": [],
+	"stats": [
+            {
+              "_comment": "invisibility",
+              "function": "potion",
+              "id": 10,
+              "ambient": true
+            }
+  ]
+}

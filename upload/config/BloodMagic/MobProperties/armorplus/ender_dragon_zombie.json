@@ -1,0 +1,10 @@
+{
+  "_name": "armorplus.ender_dragon_zombie",
+"drops": [
+        {
+          "function": "remove",
+          "id": "armorplus:wither_bone"
+            }
+          ],
+  "stats": []
+}

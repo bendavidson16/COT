@@ -1,0 +1,38 @@
+{
+  "_name": "arsmagica2.EarthElemental",
+"drops": [
+    {
+      "_comment": "we don't want normal skulls to drop from wither skeletons",
+      "function": "all",
+      "functions": [
+        {
+          "_comment": "add egg drop",
+          "function": "add",
+          "id": "thermalfoundation:material",
+          "damage":"198",
+          "count": 1.0
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "function": "all",
+      "functions": [
+        {
+          "function": "modifier",
+          "attribute": "generic.maxHealth",
+          "value": 4,
+          "operator": 1
+        },
+         {
+            "function": "modifier",
+            "attribute": "generic.attackDamage",
+            "value": 16,
+            "override": true
+            }
+          ]
+  
+    }
+  ]
+}

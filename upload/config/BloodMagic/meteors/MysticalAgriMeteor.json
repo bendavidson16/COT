@@ -1,0 +1,43 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "mysticalagriculture",
+      "path": "mystical_fertilizer"
+    },
+    "meta": 0
+  },
+  "components": [
+    {
+      "weight": 200,
+      "oreName": "mysticalagriculture:prudentium_block"
+    },
+    {
+      "weight": 130,
+      "oreName": "mysticalagriculture:superium_block"
+    },
+    {
+      "weight": 300,
+      "oreName": "mysticalagriculture:growth_accelerator"
+    },
+    {
+      "weight": 50,
+      "oreName": "mysticalagriculture:supremium_block"
+    },
+    {
+      "weight": 20,
+      "oreName": "mysticalagriculture:soulstone"
+    },
+    {
+      "weight": 150,
+      "oreName": "mysticalagriculture:intermedium_block"
+    },
+    {
+      "weight": 150,
+      "oreName": "mysticalagriculture:inferium_block"
+    }
+  ],
+  "explosionStrength": 1.0,
+  "radius": 4,
+  "maxWeight": 1000,
+  "version": 0
+}

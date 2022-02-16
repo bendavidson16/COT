@@ -1,0 +1,16 @@
+{
+  "_name": "thermalfoundation.blitz",
+  "drops": [    {
+      "function": "all",
+      "functions": [
+        {
+          "function": "add",
+          "id": "scalinghealth:CrystalShard",
+          "count": 0.05
+        }
+      ]
+    }
+],
+  "pre_stats": [],
+  "stats": []
+}

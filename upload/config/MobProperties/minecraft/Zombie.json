@@ -1,0 +1,27 @@
+{
+  "_name": "Zombie",
+  "drops": [
+    {
+      "function": "all",
+      "_comment": "this count effectively means only perform the function 5% of the time",
+      "count": 0.03,
+      "functions": [
+        {
+          "function": "spawn",
+          "id": "grimoireofgaia.Sporeling",
+          "count": "1",
+          "stats": [
+            {
+              "_comment": "halve the blaze's max health",
+              "function": "modifier",
+              "attribute": "generic.maxHealth",
+              "value": 1,
+              "operator": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": []
+}
